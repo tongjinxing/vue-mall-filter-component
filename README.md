@@ -9,6 +9,8 @@ A VUE mall advanced query component
 #### FilterListSall的效果
 主要就是solt插槽的一个区别其他是一样的
 页面引入是这样的，把需要slot的代码嵌入到组件里面，父子传参的方法就不写了。
+
+
 <FilterListSall :options="options" @sendValueToParent="getValueFromChild">
         <el-row class="filterItem clearfix" type="flex">
           <el-col :span="2">
@@ -99,4 +101,7 @@ A VUE mall advanced query component
           </el-col>
         </el-row>
       </FilterListSall>
+      
+      
+      
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cb9329a36b864b62bd1222c8d36d530a~tplv-k3u1fbpfcp-watermark.image)
